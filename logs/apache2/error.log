@@ -1,0 +1,5 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.19.0.5. Set the 'ServerName' directive globally to suppress this message
+[Thu Feb 29 09:23:49.457808 2024] [mpm_prefork:notice] [pid 1] AH00163: Apache/2.4.57 (Debian) PHP/8.3.3 OpenSSL/3.0.11 configured -- resuming normal operations
+[Thu Feb 29 09:23:49.457838 2024] [core:notice] [pid 1] AH00094: Command line: 'apache2 -D FOREGROUND'
+[Thu Feb 29 09:33:26.281773 2024] [core:crit] [pid 18] (13)Permission denied: [client 172.19.0.1:40760] AH00529: /var/www/html/install/.htaccess pcfg_openfile: unable to check htaccess file, ensure it is readable and that '/var/www/html/install/' is executable
+sh: 1: host: not found
