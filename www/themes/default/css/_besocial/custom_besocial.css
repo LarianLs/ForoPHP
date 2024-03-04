@@ -1,0 +1,218 @@
+html {
+	background-color: #232323;
+}
+/* Normal, standard links. */
+a, a:link, a:visited,
+/* Links that open in a new window. */
+a.new_win:link, a.new_win:visited {
+   color: #641212;
+   text-decoration: none;
+}
+a:hover, .topic_name h4 a:hover, .bbc_link :hover, .board_name a:hover {
+   color: #3c0200;
+}
+/* Custom highlighted text style for modern browsers. */
+/* Nicer than default blue. Needs two separate rules. */
+::-moz-selection, ::selection {
+   background: #641212;
+   color: white;
+}
+::selection {
+   background: #641212;
+   color: white
+}
+#menu_nav {
+	background: #333;
+	background: linear-gradient(to bottom, rgba(43,43,43,1) 0%, rgba(51,51,51,1) 12%, rgba(56,56,56,1) 25%, rgba(41,41,41,1) 39%, rgba(26,26,26,1) 46%, rgba(0,0,0,1) 53%, rgba(10,10,10,1) 60%, rgba(26,26,26,1) 76%, rgba(15,15,15,1) 91%, rgba(10,10,10,1) 100%);
+
+}
+#main_menu {
+   box-shadow: none !important;
+}
+
+#news h2, .topic_name h4 a, .bbc_link :hover, .bbc_link:visited , .bbc_link:link, .drop_area, .board_name a {
+   color: #994015;
+}
+#forumtitle>a {
+   color: white;
+   text-shadow: none;
+}
+#logo {
+	display: none;
+}
+
+.category_header, .forum_category .category_header {
+   background: #641212;
+   background-image: linear-gradient(to bottom, #641212 0%,#641212 49%,#641212 51%,#641212 100%);
+}
+#wrapper {
+   margin-top: 25px;
+   border-top: 1px solid #ccc;
+   border-radius: 12px;
+}
+#main_menu {
+   box-shadow: inset 0 -1px 0 rgba(0,0,0,0.1),0 1px 10px rgba(0,0,0,0.1);
+}
+#top_section {
+   background: #641212;
+   padding-top: 5px;
+   padding-bottom: 15px;
+   border-bottom: 2px solid #641212;
+}
+#top_section .wrapper {
+   background-color: transparent;
+   border: none;
+}
+
+#footer_section {
+   border-top: 1px solid #e5e5e5;
+   background-color: #f8f8f8;
+}
+#news {
+   border: 1px solid #eee;
+}
+
+.new_posts, .new_posts:visited, .new_posts:link {
+   background: #641212;
+   color: #fff;
+}
+.pagelinks .current_page {
+   background-color: #641212;
+}
+.category_header, .forum_category .category_header, .content_category .category_header  {
+   color: #fff;
+   text-shadow: none;
+   border-radius: 5px;
+   font-size: 1.1em;
+}
+.forumposts .category_header a, .content_category .category_header a {
+   color: #eee;
+}
+.forumposts .category_header {
+   color: #666;
+}
+.category_header a, .forum_category .category_header a{
+   color: #fff;
+}
+.board_icon, .on_board, .on2_board, .off_board, .category_boards .board_icon, .new_some_board:before, .new_none_board:before, .new_redirect_board:before {
+   background-image: none;
+}
+
+.board_icon, .on_board, .on2_board, .off_board, .category_boards .board_icon, .new_some_board:before, .new_none_board:before, .new_redirect_board:before {
+   background-image: none;
+}
+
+.board_row {
+	border: 1px solid #cecece;
+}
+.topic_listing li {
+   border-bottom: 2px solid white;
+}
+.off_board:before, .new_none_board:before {
+   font-family: "FontAwesome";
+   content: '\f1d1';
+   position: relative;
+   top: 5px;
+   font-size: 2.7em;
+   color: #aaa;
+}
+.on_board:before, .new_some_board:before  {
+   font-family: "FontAwesome";
+   content: '\f1d1';
+   position: relative;
+   top: 5px;
+   font-size: 2.7em;
+   color: #790000;
+}
+.on2_board:before {
+   font-family: "FontAwesome";
+   content: '\f1d1';
+   position: relative;
+   top: 5px;
+   font-size: 2.7em;
+   color: #888;		
+}
+
+.redirect_board:before, .new_redirect_board:before {
+   font-family: "FontAwesome";
+   content: '\f0c1';
+   position: relative;
+   top: 5px;
+   font-size: 2.7em;
+   color: #aaa;
+}
+.new_redirect_board:before, .new_none_board:before, .new_some_board:before {
+   font-size: 1.2em;
+   position: relative;
+   top: -2px;
+}
+#footer_section {
+   color: #555;
+}
+#footer_section a {
+   color: #346;
+}
+
+/* Level 1 active buttons for primary admin/profile/etc drop menus... */
+.admin_menu .active,
+/* ......and for secondary admin/profile/etc menu strip. */
+#adm_submenus .active {
+	border: 1px solid #aaa;
+	background: #cd0000;
+	background-image: linear-gradient(to bottom, #ccc 0%,#aaa 21%,#bbb 63%,#ccc 100%);
+	color: white;
+}
+
+/* Hover effects for those buttons. */
+.admin_menu .active:hover, .admin_menu .listlevel1:hover .active, #adm_submenus .active:hover {
+	border: 1px solid #aaa;
+	background: #cd0000;
+	background-image: linear-gradient(to bottom, #6db3f2 0%,#54a3ee 30%,#3690f0 68%,#1e69de 100%);
+	color: white;
+}
+
+/* Levels 2 and 3: hover effects. */
+.listlevel2:hover .linklevel2, /* < highlighted with cursor over level 3. */
+.linklevel2:hover, .linklevel2:focus, .linklevel2.sfhover:focus,
+.linklevel3:hover, .linklevel3:focus, .linklevel3.sfhover:focus {
+	background: #999;
+	color: #fff;
+	text-decoration: none;
+}
+
+/* This one does 800 screens at default font size. */
+@media screen and (min-width: 50em) {
+	#menu_nav .listlevel1.subsections>a:before {
+		color: #999;
+	}
+}
+
+@media screen and (max-width: 50em) {
+   .off_board:before, .on_board:before, .on2_board:before , .redirect_board {
+      font-size: 1.5em;
+      position: relative;
+      top: -2px;
+   }
+   [data-icon]:before {
+		color: #999;
+	}
+
+}
+
+@media screen and (max-width: 50em) {
+   body {
+      margin-top: 12px;
+   }
+   #top_section {
+      padding-top: 5px;
+   }
+   #search_form {
+      border-bottom: none;
+   }
+
+}
+@media screen and (max-width: 33.750em) {
+	#forumtitle {
+      text-align: center;
+   }
+}
