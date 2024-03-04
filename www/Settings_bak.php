@@ -13,7 +13,7 @@ $maintenance = 0;
 /**
  * Title for the Maintenance Mode message.
  * @var string
- * @global int $mtitle
+ * @global string $mtitle
  */
 $mtitle = 'Maintenance Mode';
 
@@ -29,31 +29,31 @@ $mmessage = 'Okay faithful users...we\'re attempting to restore an older backup 
  * The name of your forum.
  * @var string
  */
-$mbname = 'My Community';
+$mbname = 'VG-Forum';
 
 /**
  * The default language file set for the forum.
  * @var string
  */
-$language = 'english';
+$language = 'spanish';
 
 /**
  * URL to your forum's folder. (without the trailing /!)
  * @var string
  */
-$boardurl = 'http://127.0.0.1/elkarte';
+$boardurl = 'http://localhost';
 
 /**
  * Email address to send emails from. (like noreply@yourdomain.com.)
  * @var string
  */
-$webmaster_email = 'noreply@myserver.com';
+$webmaster_email = 'larianscerbet@gmail.com';
 
 /**
  * Name of the cookie to set for authentication.
  * @var string
  */
-$cookiename = 'ElkArteCookie11';
+$cookiename = 'ElkArteCookie743';
 
 ########## Database Info ##########
 /**
@@ -67,7 +67,7 @@ $db_type = 'mysql';
  * The server to connect to (or a Unix socket)
  * @var string
  */
-$db_server = 'localhost';
+$db_server = 'database';
 
 /**
  * The port for the database server
@@ -79,19 +79,19 @@ $db_port = '';
  * The database name
  * @var string
  */
-$db_name = 'elkarte';
+$db_name = 'docker';
 
 /**
  * Database username
  * @var string
  */
-$db_user = 'root';
+$db_user = 'docker';
 
 /**
  * Database password
  * @var string
  */
-$db_passwd = '';
+$db_passwd = 'docker';
 
 /**
  * Database user for when connecting with SSI
@@ -110,7 +110,7 @@ $ssi_db_passwd = '';
  * This helps to prevent conflicts
  * @var string
  */
-$db_prefix = 'elkarte_';
+$db_prefix = 'docker';
 
 /**
  * Use a persistent database connection
@@ -162,7 +162,7 @@ $cache_memcached = '';
  * It is also recommended that you place this in /tmp/ if you are going to use this.
  * @var string
  */
-$cachedir = __DIR__ . '/cache';
+$cachedir = '/var/www/html/cache';
 
 ########## Directories/Files ##########
 # Note: These directories do not have to be changed unless you move things.
@@ -170,22 +170,26 @@ $cachedir = __DIR__ . '/cache';
  * The absolute path to the forum's folder. (not just '.'!)
  * @var string
  */
-$boarddir = __DIR__;
+$boarddir = '/var/www/html';
 
 /**
  * Path to the sources directory.
  * @var string
  */
-$sourcedir = __DIR__ . '/sources';
+$sourcedir = '/var/www/html/sources';
 
 /**
  * Path to the external resources directory.
  * @var string
  */
-$extdir = __DIR__ . '/sources/ext';
+$extdir = '/var/www/html/sources/ext';
 
 /**
  * Path to the languages directory.
  * @var string
  */
 $languagedir = __DIR__ . '/themes/default/languages';
+
+$db_character_set = 'utf8';
+
+$install_time = '1709201774';

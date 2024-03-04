@@ -35,7 +35,7 @@ $mbname = 'VG-Forum';
  * The default language file set for the forum.
  * @var string
  */
-$language = 'english';
+$language = 'spanish';
 
 /**
  * URL to your forum's folder. (without the trailing /!)
