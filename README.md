@@ -5,7 +5,10 @@ La realización del mismo es con un propósito meramente educativo.
 
 Se ha utilizado la base de ElKarte Forum para el proyecto.
 
+El foro que he creado tiene como objetivo tratar temas sobre videojuegos, de ahí
+el nomnbre "VG-Forum", haciendo alusión a Video Games Forum.
 
+![image](https://github.com/LarianLs/ForoPHP/assets/152109074/4ecd251a-ab6d-4c5a-9213-c4cfe8fee86a)
 
 
 
@@ -51,10 +54,17 @@ Detalles del proyecto:
 En el foro es posible crear una cuenta y posteriormente iniciar sesióm.
 Al crear una cuenta esta se guarda en la base de datos.
 
+![image](https://github.com/LarianLs/ForoPHP/assets/152109074/9c715ed5-43f8-4557-9ff2-47e1a5ba42a4)
+
+
 Dentro de los ajustes es posible elegir un tema decorativo para el foro,
 aunque es necesario iniciar sesión o registrarse antes. El tema elegido
 se asociará a la cuenta y, al iniciar sesión, se aplicará automáticamente.
 
+![image](https://github.com/LarianLs/ForoPHP/assets/152109074/0c56fdd1-d456-49ff-8890-522c851ef018)
+
+
+![image](https://github.com/LarianLs/ForoPHP/assets/152109074/e8d149d7-ec4a-4d4a-b70d-35ceb77cdf5b)
 
 
 
