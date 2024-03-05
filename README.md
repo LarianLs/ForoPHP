@@ -3,7 +3,7 @@ Formulario hecho por Larian Luis Scerbet.
 Este proyecto ha sido realizado para una tarea del módulo de APW.
 La realización del mismo es con un propósito meramente educativo.
 
-Se ha utilizado la base de ElKarte Forum para el proyecto.
+Se ha utilizado la base de ElkArte Forum para el proyecto.
 
 El foro que he creado tiene como objetivo tratar temas sobre videojuegos, de ahí
 el nomnbre "VG-Forum", haciendo alusión a Video Games Forum.
